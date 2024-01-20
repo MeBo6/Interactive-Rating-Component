@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&family=Overpass:wght@300;400;600;700&family=Poppins&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: Overpass;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #131518;
+   min-height: 100vh;
+}
+
+.main_div {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: center;
+   border-radius: 15px;
+   background: #1a1f29;
+   padding: 34px 24px 37px 24px;
+}
+
+.outof5 {
+   border-radius: 15px;
+   background: #262E38;
+   margin: 14px 0;
+   color: #FC7614;
+   text-align: center;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 22px;
+   padding: 5px 12px;
+}
+
+.main_div h1 {
+   color: white;
+}
+
+.paragraph {
+   color:#969FAD;
+   text-align: center;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 22px;
+   width: 279px;
+}
