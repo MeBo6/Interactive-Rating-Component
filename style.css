@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&family=Overpass:wght@300;400;600;700&family=Poppins&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   align-items: center;
+   background: #131518;
+   font-family: Overpass;
+   min-height: 100vh;
+}
+
+.one {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.oval {
+   width: 40px;
+   height: 40px;
+   background:#262E38;
+   border-radius: 20px;
+   color: #FFF;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.div_container {
+   margin-top: 14px;
+   display: flex;
+   gap: 17px;
+   align-items: center;
+}
+
+img {
+   margin: 0 auto;
+   width: 14px;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: start;
+   gap: 10px;
+   padding: 24px;
+   border-radius: 15px;
+   background: radial-gradient(98.96% 98.96%
+   at 50% 0%, #232A34 0%, #181E27 100%);;
+}
+
+main h1 {
+   color: #FFF;
+   font-size: 24px;  
+   font-weight: 700;
+   width: 279px;
+}
+
+main p {
+   color: #969FAD;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 22px; 
+   width: 279px;
+}
+
+.submit {
+   margin-top: 14px;
+   border: none;
+   padding: 12px 108px;
+   border-radius: 22.5px;
+   background: #FC7614; 
+   color: #fff;
+   font-size: 14px;
+   font-weight: 700;
+   letter-spacing: 1.867px;
+}
+
+.submit:hover {
+   color: #FC7614; 
+   background-color: white;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+}
+
+.oval4 {
+   width: 40px;
+   height: 40px;
+   background:#262E38;
+   border-radius: 20px;
+   color: #FFF;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+
+.oval4:hover {
+   background: #7C8798;
+}
+
+.oval5 {
+   width: 40px;
+   height: 40px;
+   background:#262E38;
+   border-radius: 20px;
+   color: #FFF;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+
+.oval5:active {
+   background: #FC7614;
+}
+
+
